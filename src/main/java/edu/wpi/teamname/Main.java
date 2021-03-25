@@ -13,7 +13,5 @@ public class Main {
     System.out.println("Matthew Haahr");
     System.out.println("Keith DeSantis");
     System.out.println("Alex Friedman");
-    System.out.println("Alexa Freglette");
-
   }
 }
