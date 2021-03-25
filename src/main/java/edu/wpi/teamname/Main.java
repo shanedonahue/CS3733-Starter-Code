@@ -12,5 +12,8 @@ public class Main {
     System.out.println("Team Member Names Below:");
     System.out.println("Matthew Haahr");
     System.out.println("Shane Donahue");
+    System.out.println("Keith DeSantis");
+    System.out.println("Alex Friedman");
+
   }
 }
