@@ -14,7 +14,8 @@ public class Main {
     System.out.println("Shane Donahue");
     System.out.println("Keith DeSantis");
     System.out.println("Alex Friedman");
-    System.out.println("Billy Cross");
-    System.out.println("Carlie Flanagan");
+    System.out.println("Uri Dvir");
+    System.out.println("Alexa Freglette");
+
   }
 }
