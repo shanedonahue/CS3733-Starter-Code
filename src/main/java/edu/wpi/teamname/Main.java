@@ -7,8 +7,8 @@ public class Main {
     which will invoke the init method and start method in
     that class. For the Git Exercise though, we only want you
     to add code directly to this file.
-    App.launch(App.class, args);
+
      */
-    System.out.println("king in the branch king in the branch");
+    App.launch(App.class, args);
   }
 }
