@@ -1,15 +1,8 @@
 package edu.wpi.teamname.views;
 
-import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.Mockito.when;
-import static org.testfx.api.FxAssert.verifyThat;
-
 import edu.wpi.teamname.services.ServiceTwo;
 import edu.wpi.teamname.services.database.DatabaseService;
 import edu.wpi.teamname.state.HomeState;
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.ArrayList;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
@@ -25,6 +18,14 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import org.testfx.api.FxRobot;
 import org.testfx.framework.junit5.ApplicationExtension;
 import org.testfx.framework.junit5.Start;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.ArrayList;
+
+import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.Mockito.when;
+import static org.testfx.api.FxAssert.verifyThat;
 
 @ExtendWith({MockitoExtension.class, ApplicationExtension.class})
 public class HomeTest extends FxRobot {
@@ -77,8 +78,7 @@ public class HomeTest extends FxRobot {
 
   @Test
   public void testGetNodes() {
-    when(two.getResults())
-        .thenReturn(
+    when(two.getResults()).thenReturn(
             new ArrayList<String>() {
               {
                 add("Expected");

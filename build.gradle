@@ -30,9 +30,10 @@ repositories {
 dependencies {
     implementation(
             'com.jfoenix:jfoenix:8.0.10',
-
+            'org.mockito:mockito-core:3.8.0',
+            'org.mockito:mockito-junit-jupiter:3.8.0',
             // You may comment out the database dependency you do not use
-            'org.xerial:sqlite-jdbc:3.30.1',
+            //'org.xerial:sqlite-jdbc:3.30.1',
             'org.apache.derby:derby:10.14.2.0',
 
             'org.slf4j:slf4j-api:1.7.30',
