@@ -3,6 +3,8 @@ package edu.wpi.teamname.services.database;
 import java.sql.Connection;
 
 public class DatabaseService {
+
+
     public DatabaseService(Connection conn) {
     }
 
@@ -10,6 +12,6 @@ public class DatabaseService {
     }
 
     public String getEmployeeName() {
-        return "";
+        return null;
     }
 }
