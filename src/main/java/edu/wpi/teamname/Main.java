@@ -7,20 +7,9 @@ public class Main {
     which will invoke the init method and start method in
     that class. For the Git Exercise though, we only want you
     to add code directly to this file.
-    App.launch(App.class, args);
-     */
-    System.out.println("Team Member Names Below:");
-    System.out.println("Matthew Haahr");
-    System.out.println("Shane Donahue");
-    System.out.println("Keith DeSantis");
-    System.out.println("Alex Friedman");
-    System.out.println("Yveder Guimps Joseph");
-    System.out.println("Billy Cross");
-    System.out.println("Uri Dvir");
-    System.out.println("Alexa Freglette");
-    System.out.println("Craig Dunn");
 
-    System.out.println("Carlie Flanagan");
-    System.out.println("Patrick Hagearty");
+     */
+    App.launch(App.class, args);
+
   }
 }
